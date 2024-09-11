@@ -1,0 +1,756 @@
+<!doctype html>
+<html class="no-js" lang="en">
+    <head>
+        <!-- meta data -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <!--font-family-->
+		<link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Rufina:400,700" rel="stylesheet">
+        <!-- title of site -->
+        <title>NaviCars</title>
+        <!-- For favicon png -->
+		<link rel="shortcut icon" type="image/icon" href="assets/logo/favicon.png"/>
+        <!--font-awesome.min.css-->
+        <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+        <!--linear icon css-->
+		<link rel="stylesheet" href="assets/css/linearicons.css">
+        <!--flaticon.css-->
+		<link rel="stylesheet" href="assets/css/flaticon.css">
+		<!--animate.css-->
+        <link rel="stylesheet" href="assets/css/animate.css">
+        <!--owl.carousel.css-->
+        <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+		<link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+        <!--bootstrap.min.css-->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+		<!-- bootsnav -->
+		<link rel="stylesheet" href="assets/css/bootsnav.css" >	
+        <!--style.css-->
+        <link rel="stylesheet" href="assets/css/style.css">
+        <!--responsive.css-->
+        <link rel="stylesheet" href="assets/css/responsive.css">
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+	<body>
+		<!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+	
+		<!--welcome-hero start -->
+		<section id="home" class="welcome-hero">
+
+			<!-- top-area Start -->
+			<div class="top-area">
+				<div class="header-area">
+					<!-- Start Navigation -->
+				    <nav class="navbar navbar-default bootsnav  navbar-sticky navbar-scrollspy"  data-minus-value-desktop="70" data-minus-value-mobile="55" data-speed="1000">
+
+				        <div class="container">
+
+				            <!-- Start Header Navigation -->
+				            <div class="navbar-header">
+				                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+				                    <i class="fa fa-bars"></i>
+				                </button>
+				                <a class="navbar-brand" href="index.html">NaviCars<span></span></a>
+
+				            </div><!--/.navbar-header-->
+				            <!-- End Header Navigation -->
+
+				            <!-- Collect the nav links, forms, and other content for toggling -->
+				            <div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
+				                <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
+				                    <li class=" scroll active"><a href="#home">home</a></li>
+				                    <li class="scroll"><a href="#service">service</a></li>
+				                    <li class="scroll"><a href="#featured-cars">featured cars</a></li>
+				                    <li class="scroll"><a href="#new-cars">new cars</a></li>
+				                    <li class="scroll"><a href="#brand">brands</a></li>
+				                    <li class="scroll"><a href="#contact">contact</a></li>
+				                </ul><!--/.nav -->
+				            </div><!-- /.navbar-collapse -->
+				        </div><!--/.container-->
+				    </nav><!--/nav-->
+				    <!-- End Navigation -->
+				</div><!--/.header-area-->
+			    <div class="clearfix"></div>
+
+			</div><!-- /.top-area-->
+			<!-- top-area End -->
+
+			<div class="container">
+				<div class="welcome-hero-txt">
+					<h2>get your desired car in resonable price</h2>
+					<p>
+						Discover unbeatable deals on a wide range of quality cars at our dealership. Whether you're looking for a sleek sedan, a powerful SUV, or a reliable truck, we have something to fit every need and budget. Our friendly team is here to help you find the perfect vehicle and ensure a smooth, enjoyable buying experience. Visit us today and drive away with your dream car!
+					</p>					
+					<button class="welcome-btn" onclick="window.location.href='#'">contact us</button>
+				</div>
+			</div>
+
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="model-search-content">
+							<div class="row">
+								<div class="col-md-offset-1 col-md-2 col-sm-12">
+									<div class="single-model-search">
+										<h2>select year</h2>
+										<div class="model-select-icon">
+											<select class="form-control">
+
+											  	<option value="default">year</option><!-- /.option-->
+
+											  	<option value="2018">2018</option><!-- /.option-->
+
+											  	<option value="2017">2017</option><!-- /.option-->
+											  	<option value="2016">2016</option><!-- /.option-->
+
+											</select><!-- /.select-->
+										</div><!-- /.model-select-icon -->
+									</div>
+									<div class="single-model-search">
+										<h2>body style</h2>
+										<div class="model-select-icon">
+											<select class="form-control">
+
+											  	<option value="default">style</option><!-- /.option-->
+
+											  	<option value="sedan">sedan</option><!-- /.option-->
+
+											  	<option value="van">van</option><!-- /.option-->
+											  	<option value="roadster">roadster</option><!-- /.option-->
+
+											</select><!-- /.select-->
+										</div><!-- /.model-select-icon -->
+									</div>
+								</div>
+								<div class="col-md-offset-1 col-md-2 col-sm-12">
+									<div class="single-model-search">
+										<h2>select make</h2>
+										<div class="model-select-icon">
+											<select class="form-control">
+
+											  	<option value="default">make</option><!-- /.option-->
+
+											  	<option value="toyota">toyota</option><!-- /.option-->
+
+											  	<option value="holden">holden</option><!-- /.option-->
+											  	<option value="maecedes-benz">maecedes-benz-AMG</option><!-- /.option-->
+
+											</select><!-- /.select-->
+										</div><!-- /.model-select-icon -->
+									</div>
+									<div class="single-model-search">
+										<h2>car condition</h2>
+										<div class="model-select-icon">
+											<select class="form-control">
+
+											  	<option value="default">condition</option><!-- /.option-->
+
+											  	<option value="something">something</option><!-- /.option-->
+
+											  	<option value="something">something</option><!-- /.option-->
+											  	<option value="something">something</option><!-- /.option-->
+
+											</select><!-- /.select-->
+										</div><!-- /.model-select-icon -->
+									</div>
+								</div>
+								<div class="col-md-offset-1 col-md-2 col-sm-12">
+									<div class="single-model-search">
+										<h2>select model</h2>
+										<div class="model-select-icon">
+											<select class="form-control">
+
+											  	<option value="default">model</option><!-- /.option-->
+
+											  	<option value="kia-rio">kia-rio</option><!-- /.option-->
+
+											  	<option value="mitsubishi">mitsubishi</option><!-- /.option-->
+											  	<option value="ford">ford</option><!-- /.option-->
+
+											</select><!-- /.select-->
+										</div><!-- /.model-select-icon -->
+									</div>
+									<div class="single-model-search">
+										<h2>select price</h2>
+										<div class="model-select-icon">
+											<select class="form-control">
+
+											  	<option value="default">price</option><!-- /.option-->
+
+											  	<option value="$0.00">$0.00</option><!-- /.option-->
+
+											  	<option value="$0.00">$0.00</option><!-- /.option-->
+											  	<option value="$0.00">$0.00</option><!-- /.option-->
+
+											</select><!-- /.select-->
+										</div><!-- /.model-select-icon -->
+									</div>
+								</div>
+								<div class="col-md-2 col-sm-12">
+									<div class="single-model-search text-center">
+										<button class="welcome-btn model-search-btn" onclick="window.location.href='#'">
+											search
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</section><!--/.welcome-hero-->
+		<!--welcome-hero end -->
+		<!--service start -->
+		<section id="service" class="service">
+			<div class="container">
+				<div class="service-content">
+					<div class="row">
+						<div class="col-md-4 col-sm-6">
+							<div class="single-service-item">
+								<div class="single-service-icon">
+									<i class="flaticon-car"></i>
+								</div>
+								<h2><a href="#">Largest Car Dealership</a></h2>
+								<p>
+									We are the largest car dealership in the region, offering a wide selection of vehicles to meet your needs. Whether you're looking for luxury or affordability, we have the perfect car for you.
+								</p>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6">
+							<div class="single-service-item">
+								<div class="single-service-icon">
+									<i class="flaticon-car-repair"></i>
+								</div>
+								<h2><a href="#">Unlimited Repair Warranty</a></h2>
+								<p>
+									Enjoy peace of mind with our unlimited repair warranty. We stand behind our cars with comprehensive coverage that ensures you’re protected from unexpected repair costs.
+								</p>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6">
+							<div class="single-service-item">
+								<div class="single-service-icon">
+									<i class="flaticon-car-1"></i>
+								</div>
+								<h2><a href="#">Insurance Support</a></h2>
+								<p>
+									We offer dedicated insurance support to help you navigate your coverage options. Our team is here to assist you with all your insurance needs and ensure you get the best protection for your vehicle.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div><!--/.container-->
+		</section><!--/.service-->
+		
+		<!--service end-->
+
+<!--new-cars start -->
+<section id="new-cars" class="new-cars">
+    <div class="container">
+        <div class="section-header">
+            <p>Explore <span>Our</span> Latest Arrivals</p>
+            <h2>Newest Cars</h2>
+        </div><!--/.section-header-->
+        <div class="new-cars-content">
+            <div class="owl-carousel owl-theme" id="new-cars-carousel">
+                <div class="new-cars-item">
+                    <div class="single-new-cars-item">
+                        <div class="row">
+                            <div class="col-md-7 col-sm-12">
+                                <div class="new-cars-img">
+                                    <img src="assets/images/new-cars-model/ncm1.png" alt="Chevrolet Camaro ZA100"/>
+                                </div><!--/.new-cars-img-->
+                            </div>
+                            <div class="col-md-5 col-sm-12">
+                                <div class="new-cars-txt">
+                                    <h2><a href="#">Chevrolet Camaro <span>ZA100</span></a></h2>
+                                    <p>
+                                        Experience the thrill of driving with the Chevrolet Camaro ZA100. Designed for performance and style, this car offers a powerful engine and a sleek design that turns heads wherever you go.
+                                    </p>
+                                    <p class="new-cars-para2">
+                                        Enjoy advanced features and cutting-edge technology that make every drive a pleasure. Visit us to discover more about this remarkable vehicle.
+                                    </p>
+                                    <button class="welcome-btn new-cars-btn" onclick="window.location.href='#'">
+                                        View Details
+                                    </button>
+                                </div><!--/.new-cars-txt-->    
+                            </div><!--/.col-->
+                        </div><!--/.row-->
+                    </div><!--/.single-new-cars-item-->
+                </div><!--/.new-cars-item-->
+                <div class="new-cars-item">
+                    <div class="single-new-cars-item">
+                        <div class="row">
+                            <div class="col-md-7 col-sm-12">
+                                <div class="new-cars-img">
+                                    <img src="assets/images/new-cars-model/ncm2.png" alt="BMW Series-3 Wagon"/>
+                                </div><!--/.new-cars-img-->
+                            </div>
+                            <div class="col-md-5 col-sm-12">
+                                <div class="new-cars-txt">
+                                    <h2><a href="#">BMW Series-3 Wagon</a></h2>
+                                    <p>
+                                        Discover the BMW Series-3 Wagon, combining luxury and practicality. This vehicle is perfect for those who need space without compromising on performance and style.
+                                    </p>
+                                    <p class="new-cars-para2">
+                                        With top-notch features and a refined driving experience, the BMW Series-3 Wagon is your ideal companion for both daily commutes and long journeys.
+                                    </p>
+                                    <button class="welcome-btn new-cars-btn" onclick="window.location.href='#'">
+                                        View Details
+                                    </button>
+                                </div><!--/.new-cars-txt-->    
+                            </div><!--/.col-->
+                        </div><!--/.row-->    
+                    </div><!--/.single-new-cars-item-->
+                </div><!--/.new-cars-item-->
+                <div class="new-cars-item">
+                    <div class="single-new-cars-item">
+                        <div class="row">
+                            <div class="col-md-7 col-sm-12">
+                                <div class="new-cars-img">
+                                    <img src="assets/images/new-cars-model/ncm3.png" alt="Ferrari 488 Superfast"/>
+                                </div><!--/.new-cars-img-->
+                            </div>
+                            <div class="col-md-5 col-sm-12">
+                                <div class="new-cars-txt">
+                                    <h2><a href="#">Ferrari 488 Superfast</a></h2>
+                                    <p>
+                                        Feel the power and precision of the Ferrari 488 Superfast. With its exceptional performance and luxurious features, this car is designed for enthusiasts who demand the best.
+                                    </p>
+                                    <p class="new-cars-para2">
+                                        Experience unmatched speed and agility with Ferrari’s latest engineering marvel. Visit us to learn more and take the Ferrari 488 Superfast for a test drive.
+                                    </p>
+                                    <button class="welcome-btn new-cars-btn" onclick="window.location.href='#'">
+                                        View Details
+                                    </button>
+                                </div><!--/.new-cars-txt-->    
+                            </div><!--/.col-->
+                        </div><!--/.row-->
+                    </div><!--/.single-new-cars-item-->
+                </div><!--/.new-cars-item-->
+            </div><!--/#new-cars-carousel-->
+        </div><!--/.new-cars-content-->
+    </div><!--/.container-->
+</section><!--/.new-cars-->
+		<!--new-cars end -->
+		<!--featured-cars start -->
+<section id="featured-cars" class="featured-cars">
+    <div class="container">
+        <div class="section-header">
+            <p>Discover <span>Our</span> Featured Cars</p>
+            <h2>Featured Cars</h2>
+        </div><!--/.section-header-->
+        <div class="featured-cars-content">
+            <div class="row">
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="single-featured-cars">
+                        <div class="featured-img-box">
+                            <div class="featured-cars-img">
+                                <img src="assets/images/featured-cars/fc1.png" alt="BMW 6-Series Gran Coupe"/>
+                            </div>
+                            <div class="featured-model-info">
+                                <p>
+                                    Model: 2017
+                                    <span class="featured-mi-span"> 3100 mi</span>
+                                    <span class="featured-hp-span"> 240HP</span>
+                                    Automatic
+                                </p>
+                            </div>
+                        </div>
+                        <div class="featured-cars-txt">
+                            <h2><a href="#">BMW 6-Series Gran Coupe</a></h2>
+                            <h3>$89,395</h3>
+                            <p>
+                                Experience luxury and performance with the BMW 6-Series Gran Coupe. Combining elegant design with powerful performance, this car offers a top-notch driving experience.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="single-featured-cars">
+                        <div class="featured-img-box">
+                            <div class="featured-cars-img">
+                                <img src="assets/images/featured-cars/fc2.png" alt="Chevrolet Camaro WMV20"/>
+                            </div>
+                            <div class="featured-model-info">
+                                <p>
+                                    Model: 2017
+                                    <span class="featured-mi-span"> 3100 mi</span>
+                                    <span class="featured-hp-span"> 240HP</span>
+                                    Automatic
+                                </p>
+                            </div>
+                        </div>
+                        <div class="featured-cars-txt">
+                            <h2><a href="#">Chevrolet Camaro <span>WMV20</span></a></h2>
+                            <h3>$66,575</h3>
+                            <p>
+                                Unleash the power of the Chevrolet Camaro WMV20. With its striking design and robust engine, it promises an exhilarating driving experience on any road.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="single-featured-cars">
+                        <div class="featured-img-box">
+                            <div class="featured-cars-img">
+                                <img src="assets/images/featured-cars/fc3.png" alt="Lamborghini V520"/>
+                            </div>
+                            <div class="featured-model-info">
+                                <p>
+                                    Model: 2017
+                                    <span class="featured-mi-span"> 3100 mi</span>
+                                    <span class="featured-hp-span"> 240HP</span>
+                                    Automatic
+                                </p>
+                            </div>
+                        </div>
+                        <div class="featured-cars-txt">
+                            <h2><a href="#">Lamborghini <span>V520</span></a></h2>
+                            <h3>$125,250</h3>
+                            <p>
+                                The Lamborghini V520 is a masterpiece of design and engineering. Its powerful engine and sleek exterior make it a standout choice for any car enthusiast.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="single-featured-cars">
+                        <div class="featured-img-box">
+                            <div class="featured-cars-img">
+                                <img src="assets/images/featured-cars/fc4.png" alt="Audi A3 Sedan"/>
+                            </div>
+                            <div class="featured-model-info">
+                                <p>
+                                    Model: 2017
+                                    <span class="featured-mi-span"> 3100 mi</span>
+                                    <span class="featured-hp-span"> 240HP</span>
+                                    Automatic
+                                </p>
+                            </div>
+                        </div>
+                        <div class="featured-cars-txt">
+                            <h2><a href="#">Audi <span>A3</span> Sedan</a></h2>
+                            <h3>$95,500</h3>
+                            <p>
+                                The Audi A3 Sedan offers a blend of sophistication and performance. Its refined design and advanced features provide a comfortable and dynamic driving experience.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="single-featured-cars">
+                        <div class="featured-img-box">
+                            <div class="featured-cars-img">
+                                <img src="assets/images/featured-cars/fc4.png" alt="Infiniti Z5"/>
+                            </div>
+                            <div class="featured-model-info">
+                                <p>
+                                    Model: 2017
+                                    <span class="featured-mi-span"> 3100 mi</span>
+                                    <span class="featured-hp-span"> 240HP</span>
+                                    Automatic
+                                </p>
+                            </div>
+                        </div>
+                        <div class="featured-cars-txt">
+                            <h2><a href="#">Infiniti <span>Z5</span></a></h2>
+                            <h3>$36,850</h3>
+                            <p>
+                                The Infiniti Z5 combines elegance with efficiency. Its stylish design and advanced features make it an excellent choice for those who value both form and function.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="single-featured-cars">
+                        <div class="featured-img-box">
+                            <div class="featured-cars-img">
+                                <img src="assets/images/featured-cars/fc5.png" alt="Porsche 718 Cayman"/>
+                            </div>
+                            <div class="featured-model-info">
+                                <p>
+                                    Model: 2017
+                                    <span class="featured-mi-span"> 3100 mi</span>
+                                    <span class="featured-hp-span"> 240HP</span>
+                                    Automatic
+                                </p>
+                            </div>
+                        </div>
+                        <div class="featured-cars-txt">
+                            <h2><a href="#">Porsche <span>718</span> Cayman</a></h2>
+                            <h3>$48,500</h3>
+                            <p>
+                                The Porsche 718 Cayman delivers an exceptional driving experience with its powerful engine and agile handling. A perfect blend of performance and luxury.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="single-featured-cars">
+                        <div class="featured-img-box">
+                            <div class="featured-cars-img">
+                                <img src="assets/images/featured-cars/fc7.png" alt="BMW 8-Series Coupe"/>
+                            </div>
+                            <div class="featured-model-info">
+                                <p>
+                                    Model: 2017
+                                    <span class="featured-mi-span"> 3100 mi</span>
+                                    <span class="featured-hp-span"> 240HP</span>
+                                    Automatic
+                                </p>
+                            </div>
+                        </div>
+                        <div class="featured-cars-txt">
+                            <h2><a href="#"><span>BMW 8-Series</span> Coupe</a></h2>
+                            <h3>$56,000</h3>
+                            <p>
+                                The BMW 8-Series Coupe exudes luxury and performance. Its sophisticated design and powerful engine provide an unmatched driving experience.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="single-featured-cars">
+                        <div class="featured-img-box">
+                            <div class="featured-cars-img">
+                                <img src="assets/images/featured-cars/fc8.png" alt="BMW X-Series 6"/>
+                            </div>
+                            <div class="featured-model-info">
+                                <p>
+                                    Model: 2017
+                                    <span class="featured-mi-span"> 3100 mi</span>
+                                    <span class="featured-hp-span"> 240HP</span>
+                                    Automatic
+                                </p>
+                            </div>
+                        </div>
+                        <div class="featured-cars-txt">
+                            <h2><a href="#">BMW <span>X-Series</span> 6</a></h2>
+                            <h3>$75,800</h3>
+                            <p>
+                                The BMW X-Series 6 combines rugged capability with refined luxury. Perfect for those who need both performance and comfort in their daily drive.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!--/.container-->
+</section><!--/.featured-cars-->
+		<!--featured-cars end -->
+<!-- clients-say start -->
+<section id="clients-say" class="clients-say">
+    <div class="container">
+        <div class="section-header">
+            <h2>What Our Clients Say</h2>
+        </div><!--/.section-header-->
+        <div class="row">
+            <div class="owl-carousel testimonial-carousel">
+                <div class="col-sm-3 col-xs-12">
+                    <div class="single-testimonial-box">
+                        <div class="testimonial-description">
+                            <div class="testimonial-info">
+                                <div class="testimonial-img">
+                                    <img src="assets/images/clients/c1.png" alt="image of client" />
+                                </div><!--/.testimonial-img-->
+                            </div><!--/.testimonial-info-->
+                            <div class="testimonial-comment">
+                                <p>
+                                    "I had an excellent experience with this dealership. The staff was very courteous and helped me find the perfect car within my budget. Highly recommend to everyone looking for a reliable car dealer in India!"
+                                </p>
+                            </div><!--/.testimonial-comment-->
+                            <div class="testimonial-person">
+                                <h2><a href="#">Amit Sharma</a></h2>
+                                <h4>Mumbai</h4>
+                            </div><!--/.testimonial-person-->
+                        </div><!--/.testimonial-description-->
+                    </div><!--/.single-testimonial-box-->
+                </div><!--/.col-->
+                <div class="col-sm-3 col-xs-12">
+                    <div class="single-testimonial-box">
+                        <div class="testimonial-description">
+                            <div class="testimonial-info">
+                                <div class="testimonial-img">
+                                    <img src="assets/images/clients/c2.png" alt="image of client" />
+                                </div><!--/.testimonial-img-->
+                            </div><!--/.testimonial-info-->
+                            <div class="testimonial-comment">
+                                <p>
+                                    "Amazing service! The team guided me through every step of the car-buying process and made it so smooth. Their knowledge and professionalism are truly commendable. I am very satisfied with my purchase."
+                                </p>
+                            </div><!--/.testimonial-comment-->
+                            <div class="testimonial-person">
+                                <h2><a href="#">Neha Patel</a></h2>
+                                <h4>Delhi</h4>
+                            </div><!--/.testimonial-person-->
+                        </div><!--/.testimonial-description-->
+                    </div><!--/.single-testimonial-box-->
+                </div><!--/.col-->
+                <div class="col-sm-3 col-xs-12">
+                    <div class="single-testimonial-box">
+                        <div class="testimonial-description">
+                            <div class="testimonial-info">
+                                <div class="testimonial-img">
+                                    <img src="assets/images/clients/c3.png" alt="image of client" />
+                                </div><!--/.testimonial-img-->
+                            </div><!--/.testimonial-info-->
+                            <div class="testimonial-comment">
+                                <p>
+                                    "Great dealership with a wide range of cars. The staff was very friendly and provided excellent customer service. I am thrilled with my new car and the entire experience was fantastic."
+                                </p>
+                            </div><!--/.testimonial-comment-->
+                            <div class="testimonial-person">
+                                <h2><a href="#">Rajesh Kumar</a></h2>
+                                <h4>Bangalore</h4>
+                            </div><!--/.testimonial-person-->
+                        </div><!--/.testimonial-description-->
+                    </div><!--/.single-testimonial-box-->
+                </div><!--/.col-->
+            </div><!--/.testimonial-carousel-->
+        </div><!--/.row-->
+    </div><!--/.container-->
+</section><!--/.clients-say-->
+	
+		<!-- clients-say end -->
+
+<!-- contact start -->
+<footer id="contact" class="contact">
+    <div class="container">
+        <div class="footer-top">
+            <div class="row">
+                <div class="col-md-3 col-sm-6">
+                    <div class="single-footer-widget">
+                        <div class="footer-logo">
+                            <a href="index.html">NaviCars</a>
+                        </div>
+                        <p>
+                            At NaviCars, we are dedicated to providing you with the best car buying and selling experience. Our team is committed to ensuring that you find the perfect vehicle to meet your needs. Whether you're looking for luxury, performance, or economy, we have something for everyone.
+                        </p>
+                        <div class="footer-contact">
+                            <p>Email: info@NaviCars.com</p>
+                            <p>Phone: +91 123 456 7890</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-6">
+                    <div class="single-footer-widget">
+                        <h2>About Us</h2>
+                        <ul>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">Terms of Service</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 col-xs-12">
+                    <div class="single-footer-widget">
+                        <h2>Top Brands</h2>
+                        <div class="row">
+                            <div class="col-md-7 col-xs-6">
+                                <ul>
+                                    <li><a href="#">BMW</a></li>
+                                    <li><a href="#">Lamborghini</a></li>
+                                    <li><a href="#">Camaro</a></li>
+                                    <li><a href="#">Audi</a></li>
+                                    <li><a href="#">Infiniti</a></li>
+                                    <li><a href="#">Nissan</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-md-5 col-xs-6">
+                                <ul>
+                                    <li><a href="#">Ferrari</a></li>
+                                    <li><a href="#">Porsche</a></li>
+                                    <li><a href="#">Land Rover</a></li>
+                                    <li><a href="#">Aston Martin</a></li>
+                                    <li><a href="#">Mercedes</a></li>
+                                    <li><a href="#">Opel</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-offset-1 col-md-3 col-sm-6">
+                    <div class="single-footer-widget">
+                        <h2>Newsletter</h2>
+                        <div class="footer-newsletter">
+                            <p>
+                                Stay updated with the latest news, special offers, and new arrivals. Subscribe to our newsletter and never miss out on any of our exciting updates.
+                            </p>
+                        </div>
+                        <div class="hm-foot-email">
+                            <div class="foot-email-box">
+                                <input type="email" class="form-control" placeholder="Enter Email" />
+                            </div><!--/.foot-email-box-->
+                            <div class="foot-email-subscribe">
+                                <span><i class="fa fa-arrow-right"></i></span>
+                            </div><!--/.foot-email-subscribe-->
+                        </div><!--/.hm-foot-email-->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="row">
+                <div class="col-sm-6">
+                    <p>
+                        &copy; 2024 CarVilla. Designed and developed by <a href="https://www.themesine.com/">Themesine</a>.
+                    </p><!--/p-->
+                </div>
+                <div class="col-sm-6">
+                    <div class="footer-social">
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+                        <a href="#"><i class="fa fa-linkedin"></i></a>
+                        <a href="#"><i class="fa fa-pinterest-p"></i></a>
+                        <a href="#"><i class="fa fa-behance"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div><!--/.footer-copyright-->
+    </div><!--/.container-->
+    <div id="scroll-Top">
+        <div class="return-to-top">
+            <i class="fa fa-angle-up" id="scroll-top" data-toggle="tooltip" data-placement="top" title="Back to Top" aria-hidden="true"></i>
+        </div>
+    </div><!--/.scroll-Top-->
+</footer><!--/.contact-->
+<!-- contact end -->
+
+		<!-- Include all js compiled plugins (below), or include individual files as needed -->
+
+		<script src="assets/js/jquery.js"></script>
+        
+        <!--modernizr.min.js-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+		
+		<!--bootstrap.min.js-->
+        <script src="assets/js/bootstrap.min.js"></script>
+		
+		<!-- bootsnav js -->
+		<script src="assets/js/bootsnav.js"></script>
+
+		<!--owl.carousel.js-->
+        <script src="assets/js/owl.carousel.min.js"></script>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+
+        <!--Custom JS-->
+        <script src="assets/js/custom.js"></script>
+    </body>
+</html>
